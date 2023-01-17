@@ -1,7 +1,11 @@
 # dvc-project-template
-DVC project template
+DVC NLP project
 
+## Reference repository
+[official reference repo](https://github.com/iterative/example-get-started)
 ## STEPS -
+
+
 
 ### STEP 01- Create a repository by using template repository
 
@@ -10,7 +14,7 @@ DVC project template
 ### STEP 03- Create a conda environment after opening the repository in VSCODE
 
 ```bash
-conda create --prefix ./env python=3.7 -y
+conda create --prefix ./env python=3.9 -y
 ```
 
 ```bash
