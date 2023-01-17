@@ -22,7 +22,19 @@ def main(config_path, params_path):
     ## read config files
     config = read_yaml(config_path)
     params = read_yaml(params_path)
-    pass
+
+    source_data = config["source_data"]
+    input_data = os.path.join(source_data["dir"],source_data["data_file"])
+
+    split = params["prepare"]["split"]
+    seed = params["prepare"]["seed"]
+    random.seed(seed)
+
+    artifacts = config["artifacts"]
+    prepared_data_dir_path = os.path.join(artifacts["ARTIFACTS_DIR"],artifacts["PREPARED_DATA"])
+
+    create_directories([prepared_data_dir_path])
+
 
 
 if __name__ == '__main__':
