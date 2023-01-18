@@ -5,6 +5,9 @@ artifacts:
   PREPARED_DATA: prepared
   TRAIN_DATA: train.tsv
   TEST_DATA: test.tsv
+  FEATURIZED: features
+  FEATURIZED_OUT_TRAIN: train.pkl
+  FEATURIZE_OUT_TEST: test.pkl
 
   
 source_data:
