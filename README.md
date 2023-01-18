@@ -3,6 +3,8 @@ DVC NLP project
 
 ## Reference repository
 [official reference repo](https://github.com/iterative/example-get-started)
+
+[my view](https://studio.iterative.ai/user/Rahul-Shedge/projects/DVC-NLP-Simple_Usecase-kjkavqmvtb)
 ## STEPS -
 
 
