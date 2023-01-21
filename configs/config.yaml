@@ -15,4 +15,12 @@ source_data:
   data_dir: data
   data_file: data.xml
 
+plots:
+  PRC: prc.json
+  ROC: roc.json
+
+metrics:
+  SCORES: scores.json
+
+
 
