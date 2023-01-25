@@ -44,7 +44,7 @@ def main(config_path, params_path):
 
     df_train = get_df(train_data_path)
 
-    train_words = np.array(df_train.text.str.lower().values.astype("U"))
+    train_words = np.array(df_train.text.str.lower().values.astype("U")) ## to use cloud-type=t2.micro in ci-cd.yml we can replace astype("U") WITH astype("U1000") so that unicode character limited 1000.
 
     # print(train_words[:20])
     bag_of_words = CountVectorizer(
